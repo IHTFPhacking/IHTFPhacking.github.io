@@ -36,7 +36,7 @@ function clearFields()
 {
 	document.getElementById("decryptedText").value = "";
 	document.getElementById("encryptedText").value = "";
-	document.getElementById("image").src = "images/Fire Truck On MIT.png";
+	document.getElementById("image").src = "../images/Fire Truck On MIT.png";
 }
 
 
@@ -47,7 +47,7 @@ function changePicture1()
 }
 function finishChange1()
 {
-	document.getElementById("image").src = "images/Programming.png";
+	document.getElementById("image").src = "../images/Programming.png";
 	document.getElementById("image").className = "imageOpaque";
 }
 
@@ -59,7 +59,7 @@ function changePicture2()
 }
 function finishChange2()
 {
-	document.getElementById("image").src = "images/Robotics.png";
+	document.getElementById("image").src = "../images/Robotics.png";
 	document.getElementById("image").className = "imageOpaque";
 }
 
@@ -71,7 +71,7 @@ function changePicture3()
 }
 function finishChange3()
 {
-	document.getElementById("image").src = "images/PracticeRoom.png";
+	document.getElementById("image").src = "../images/PracticeRoom.png";
 	document.getElementById("image").className = "imageOpaque";
 }
 
@@ -83,7 +83,7 @@ function changePicture4()
 }
 function finishChange4()
 {
-	document.getElementById("image").src = "images/CPHS.png";
+	document.getElementById("image").src = "../images/CPHS.png";
 	document.getElementById("image").className = "imageOpaque";
 }
 
