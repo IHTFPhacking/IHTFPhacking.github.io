@@ -22,6 +22,11 @@ function decryptText()
 	{
 		changePicture4();
 	}
+	else if (encrypted == "U2FsdGVkX1/Y1u3x2QUZFplzg3yKQc6Bq12twtLqm9Hgjnwc4WHzbaMYYAQUG9T+AlIj4uxEPSXAorBCBMfi7wYqyw7M5pnaYGKxTnudl6tq2C4LiEdZi33MlL8CKnKdK0edSX4sMXGyPLbUlnzZKt4FlURRDok0agqNEFT3JSmQxPT/qQhw/CcEl07axuxa8v00KDPYD5ipQYZlryrvfNQAgxiKXsKL+eyiBucuJRT2vbFRXWaH4UU5DAS8jJQ1cz8bAKn6c1g0v3NoGfKMRKF4vCDKv+vAXxwB6bv/bf0=")
+	{
+		alert(decrypted);
+		changePicture5();
+	}
 }
 function encryptText()
 {
@@ -84,6 +89,19 @@ function changePicture4()
 function finishChange4()
 {
 	document.getElementById("image").src = "images/CPHS.png";
+	document.getElementById("image").className = "imageOpaque";
+}
+
+
+function changePicture5()
+{
+	document.getElementById("image").className = "imageTransparent";
+	setTimeout(finishChange5, "1000");
+}
+function finishChange5()
+{
+	document.getElementById("image").src = "images/Question.png";
+	setTimeout(wait, "15000")
 	document.getElementById("image").className = "imageOpaque";
 }
 
